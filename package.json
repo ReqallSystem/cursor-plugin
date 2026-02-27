@@ -1,0 +1,31 @@
+{
+  "name": "@reqall/cursor-plugin",
+  "version": "0.0.3",
+  "description": "Reqall plugin for Cursor — persistent semantic memory for AI agents",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@reqall/core": "^0.0.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.0",
+    "@types/node": "^22.0.0"
+  },
+  "files": [
+    "dist",
+    ".cursor",
+    "rules"
+  ],
+  "license": "MIT"
+}
