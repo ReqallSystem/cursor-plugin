@@ -1,6 +1,6 @@
 {
   "name": "@reqall/cursor-plugin",
-  "version": "2026.2.1",
+  "version": "2026.10.4",
   "description": "Reqall plugin for Cursor — persistent semantic memory for AI agents",
   "type": "module",
   "main": "dist/index.js",
