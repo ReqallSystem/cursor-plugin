@@ -1,6 +1,6 @@
 {
   "name": "@reqall/cursor-plugin",
-  "version": "2026.2.1",
+  "version": "2026.10.4",
   "description": "Reqall plugin for Cursor — persistent semantic memory for AI agents",
   "type": "module",
   "main": "dist/index.js",
@@ -13,7 +13,9 @@
   },
   "scripts": {
     "build": "tsc",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist",
+    "prepack": "npm run build",
+    "test": "npm run build && node --test test/*.test.js"
   },
   "dependencies": {
     "@reqall/core": "^2026.2.1"
